@@ -179,7 +179,12 @@ Tax, accounting and regulatory skills, none of which appear in the requested imp
 
 These are read-only and not unsafe — they were left out to keep the library focused on the
 requested research scope. `tax-loss-harvesting` additionally points the reader to
-`dex-execution` and `jupiter-swap` as its execution step. **They can be added on request.**
+`dex-execution` and `jupiter-swap` as its execution step.
+
+> **Standing decision (ratified 2026-08-21): do not import these seven skills.**
+> Reviewed and confirmed by the repository owner. Do not re-import them on your own
+> initiative in a later session; they may only be added following a new, explicit request
+> from the owner.
 
 **Also omitted**: repository root `claude-trading-skills.gif` (11 MB), `tests/`,
 `examples.md`, `trading-skills.md`, `CONTRIBUTING.md`.
@@ -210,9 +215,20 @@ Per the installation policy (*"If a source lacks a usable license, do not copy i
 as skipped pending license confirmation"*), a bare README sentence was judged **not a usable
 licence grant**. No file from this repository was copied.
 
-**To unblock**: ask the maintainer to add a proper `LICENSE` file, or obtain written
-confirmation of the terms. Then re-audit — and in any case **never import its MiniQMT or any
-other live-order/client-control material**, which is out of scope regardless of licence.
+> **Standing decision (ratified 2026-08-21): this source stays fully excluded.**
+> Reviewed and confirmed by the repository owner. Nothing from this repository may be
+> imported until an **explicit, usable licence** exists — a real `LICENSE` file or written
+> confirmation of the terms. A README sentence does not qualify. Do not re-evaluate this on
+> your own initiative in a later session.
+>
+> **MiniQMT and any other live-order or client-control material stay excluded in all
+> cases**, regardless of any future licence change. That exclusion is permanent and follows
+> from the no-execution policy in [`SECURITY.md`](SECURITY.md), not from the licence
+> question.
+
+**To unblock the rest**: the maintainer adds a proper `LICENSE` file, or provides written
+confirmation of the terms. A fresh audit is then required before any import — and the
+MiniQMT exclusion above still applies.
 
 ---
 
