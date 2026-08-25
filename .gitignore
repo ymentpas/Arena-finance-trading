@@ -1,0 +1,48 @@
+# Workspace budget guard — see AGENTS.md §9 and SECURITY.md §6.
+# This repository holds skills and small text artefacts only.
+
+# Raw market data — never commit (provider terms + workspace budget)
+*.csv
+*.parquet
+*.arrow
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+
+# Archives and model weights
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Caches and dependency directories
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+node_modules/
+.venv/
+venv/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets — must never reach the repository
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# OS noise
+.DS_Store
+Thumbs.db
